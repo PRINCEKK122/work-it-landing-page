@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Hero Section */
 .hero {
     background-color: #fcf8ff;
+    overflow-x: hidden;
 }
 
 .hero h1 {
@@ -129,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-image {
-    width: 40rem;
+    width: 30rem;
     position: relative;
     bottom: 12rem;
     margin: 0 auto;
