@@ -209,4 +209,34 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/* Products section */
+
+.products-container {
+    background-color: #fcf8ff;
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    padding-bottom: 9rem;
+    position: relative;
+    top: -9rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.products-container > section:not(section:last-child) {
+    margin-bottom: 4rem;
+}
+
+.products-container h3 {
+    margin-bottom: 2.4rem;
+    border: 0.1rem solid;
+    display: inline-block;
+    padding: 2rem 2.5rem;
+    border-radius: 50%;
+}
+
+.products-container .content h2 {
+    font-size: 3rem;
+    margin-bottom: 1.6rem;
+}
 
