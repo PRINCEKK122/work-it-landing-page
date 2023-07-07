@@ -1,0 +1,211 @@
+@font-face {
+    font-family: "fraunces";
+    src: url("./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "manrope";
+    src: url("./assets/fonts/manrope/static/Manrope-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Resetting */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "manrope";
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+p {
+    color: #584d62;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+/* Utilities */
+.bg-primary {
+    background-color: #24053e;
+    color: #fff;
+}
+
+.bg-secondary {
+    background-color: #fcf8ff;
+    color: #24053e;
+}
+
+.heading-color {
+    color: #24053e;
+}
+
+.btn {
+    font-size: 1.6rem;
+    background-color: #44ffa1;
+    padding: 1rem 1.6rem;
+    color: #24053e;
+    border: 0.2rem solid transparent;
+    transition: background-color 300ms;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 0.2rem solid #44ffa1;
+    color: #44ffa1;
+}
+
+.crop {
+    clip-path: ellipse(150% 100% at 50% 0);
+}
+
+.text-underline {
+    border-bottom: 0.2rem solid #44ffa1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "fraunces", sans-serif;
+    color: #24053e;
+    line-height: 1.1;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #fcf8ff;
+}
+
+.hero h1 {
+    color: #fff;
+}
+
+.header-container {
+    padding: 3.2rem 1.5rem;
+}
+
+.top-nav a:hover {
+    color: #44ffa1;
+    transition: color 200ms;
+}
+
+.header-container .top-nav {
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container .content {
+    text-align: center;
+}
+
+.header-container .content h1 {
+    font-size: 5.5rem;
+    margin-bottom: 3rem;
+}
+
+.header-container .content a {
+    margin-bottom: 12rem;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.rings-container {
+    display: none;
+}
+
+.hero-image {
+    width: 40rem;
+    position: relative;
+    bottom: 12rem;
+    margin: 0 auto;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-container {
+        padding-left: 3.9rem;
+        padding-right: 3.9rem;
+    }
+
+    .header-container .content h1 {
+        font-size: 7rem;
+    }
+
+    .header-container .content a {
+        margin-bottom: 17rem;
+    }
+
+    .rings-container {
+        display: block;
+        position: relative;
+        top: -20em;
+    }
+
+    .rings-container > * {
+        position: absolute;
+    }
+
+    .rings-container :first-child {
+        left: -22rem;
+        top: -13rem;
+    }
+
+    .rings-container :last-child {
+        right: -10rem;
+        top: 4rem;
+    }
+
+    .hero-image {
+        width: 50rem;
+        bottom: 17rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .header-container {
+        padding: 5.7rem 16.5rem 0;
+    }
+
+    .header-container .content h1 {
+        font-size: 8rem;
+    }
+
+    .rings-container :first-child {
+        left: -14rem;
+        top: -23rem;
+    }
+
+    .rings-container :last-child {
+        right: -6rem;
+        top: -5rem;
+    }
+
+    .header-container .content a {
+        margin-bottom: 23rem;
+    }
+
+    .hero-image {
+        width: 70rem;
+        bottom: 22rem;
+    }
+}
+
+
