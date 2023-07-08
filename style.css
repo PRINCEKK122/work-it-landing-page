@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-container .content h1 {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     margin-bottom: 3rem;
 }
 
@@ -350,7 +350,6 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
-/* TODO: Add media queries */
 @media only screen and (min-width: 768px) {
     .founder-container {
         top: -2rem;
