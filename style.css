@@ -35,6 +35,10 @@ p {
     color: #584d62;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     color: #fff;
     text-decoration: none;
@@ -133,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-image {
     width: 30rem;
     position: relative;
-    bottom: 12rem;
+    bottom: 9rem;
     margin: 0 auto;
 }
 
@@ -217,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 1.6rem;
     padding-bottom: 9rem;
     position: relative;
-    top: -9rem;
+    top: -5rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -301,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Founder Section */
 .founder-container {
     position: relative;
-    top: -3rem;
+    top: 3rem;
     padding: 0 1.6rem;
     width: 100%;
     height: 60rem;
@@ -315,12 +319,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .founder-container .content {
     position: relative;
-    top: -5.3rem;
+    top: -4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3.2rem;
-    height: calc(100% - 23.3rem);
+    height: calc(100% - 25rem);
 }
 
 .founder-container .content h2 {
@@ -331,10 +335,26 @@ h1, h2, h3, h4, h5, h6 {
 .founder-container .content p {
     text-align: center;
     word-spacing: .3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .founder-container .content h2,
 .founder-container .content p {
     color: #fff;
+}
+
+/* TODO: Add media queries */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.7rem;
+    margin-top: 5rem;
+}
+
+footer ul {
+    display: flex;
+    gap: 2.8rem;
+    margin-bottom: 6.4rem;
 }
