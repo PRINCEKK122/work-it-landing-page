@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (min-width: 1440px) {
     .hero-image {
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
     }
 
     .products-container {
@@ -353,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
 /* TODO: Add media queries */
 @media only screen and (min-width: 768px) {
     .founder-container {
-        top: -5.5rem;
+        top: -2rem;
         height: 55rem;
     }
 
@@ -389,6 +389,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media only screen and (min-width: 1440px) {
+    .founder-container {
+        top: -12rem;
+    }
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -401,4 +407,16 @@ footer ul {
     display: flex;
     gap: 2.8rem;
     margin-bottom: 6.4rem;
+}
+
+@media only screen and (min-width: 768px) {
+    footer {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    footer {
+        margin-top: -10rem;
+    }
 }
