@@ -312,6 +312,7 @@ h1, h2, h3, h4, h5, h6 {
     max-height: 65rem;
     max-width: 80rem;
     margin: 0 auto;
+    border: 1px solid blue;
 }
 
 .founder-container img {
@@ -354,6 +355,7 @@ h1, h2, h3, h4, h5, h6 {
     .founder-container {
         top: -2rem;
         height: 55rem;
+        padding: 0;
     }
 
     .founder-container > img {
@@ -364,8 +366,8 @@ h1, h2, h3, h4, h5, h6 {
 
     .founder-container .content {
         position: absolute;
-        top: 32%;
-        right: -2%;
+        top: 31%;
+        right: 2%;
         align-items: start;
     }
 
