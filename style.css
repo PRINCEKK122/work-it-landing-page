@@ -59,7 +59,7 @@ a {
 .btn {
     font-size: 1.6rem;
     background-color: #44ffa1;
-    padding: 1rem 1.6rem;
+    padding: 1rem 2.5rem;
     color: #24053e;
     border: 0.2rem solid transparent;
     transition: background-color 300ms;
@@ -72,7 +72,7 @@ a {
 }
 
 .crop {
-    clip-path: ellipse(150% 100% at 50% 0);
+    clip-path: ellipse(170% 100% at 50% 0);
 }
 
 .text-underline {
@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .hero-image {
         width: 50rem;
-        bottom: 17rem;
+        bottom: 14rem;
     }
 }
 
@@ -205,12 +205,11 @@ h1, h2, h3, h4, h5, h6 {
 
     .hero-image {
         width: 70rem;
-        bottom: 22rem;
+        bottom: 18rem;
     }
 }
 
 /* Products section */
-
 .products-container {
     background-color: #fcf8ff;
     padding-right: 1.6rem;
@@ -231,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 2.4rem;
     border: 0.1rem solid;
     display: inline-block;
-    padding: 2rem 2.5rem;
+    padding: 1rem 1.7rem;
     border-radius: 50%;
 }
 
@@ -240,3 +239,60 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1.6rem;
 }
 
+@media only screen and (min-width: 768px) {
+    .products-container {
+        position: relative;
+        text-align: left;
+    }
+
+    .products-container section[class*="container-"] {
+        display: flex;
+        align-items: center;
+        padding-right: 9.7rem;
+        padding-left: 9.7rem;
+    }
+
+    .products-container section[class*="container-"] h3 {
+        position: relative;
+        top: 2rem;
+        margin-right: 3.2rem;
+    }
+
+    .products-container .content h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .hero-image {
+        margin-bottom: 2rem;
+    }
+
+    .products-container {
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        height: 30.8rem;
+        top: -21rem;
+        margin: 0 9.7rem;
+        padding: 0;
+    }
+
+    .products-container section[class*="container-"] {
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 0 !important;
+        padding: 0;
+        height: 100%;
+        padding-right: 2.6rem;
+    }
+
+    .products-container section[class^="container-"] h3 {
+        top: 0;
+        margin: 0;
+    }
+
+    .products-container .content p {
+        max-width: 40rem;
+    }
+}
