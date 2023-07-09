@@ -414,6 +414,17 @@ footer ul {
     margin-bottom: 6.4rem;
 }
 
+footer a {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #24053e;
+    margin-bottom: 1rem;
+}
+
+footer a:visited {
+    color: #584d62;
+}
+
 @media only screen and (min-width: 768px) {
     footer {
         margin-top: 1rem;
